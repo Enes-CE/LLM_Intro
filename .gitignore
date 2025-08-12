@@ -1,8 +1,13 @@
-# Sadece sanal ortamın gereksiz kısımlarını hariç tut
+# Tüm .env dosyalarını (nerede olursa olsun) ignore et
+**/.env
+
+# Sanal ortam gereksiz dosyaları
 venv/bin/
 venv/lib/
 venv/Lib/
 venv/Include/
 venv/pyvenv.cfg
+
+# Python cache
 __pycache__/
 *.pyc
