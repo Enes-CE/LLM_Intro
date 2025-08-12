@@ -1,5 +1,8 @@
-# Python sanal ortam
-venv/
-.env
+# Sadece sanal ortamın gereksiz kısımlarını hariç tut
+venv/bin/
+venv/lib/
+venv/Lib/
+venv/Include/
+venv/pyvenv.cfg
 __pycache__/
 *.pyc
